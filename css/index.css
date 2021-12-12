@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../img/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+/*-------------------------------------------------------------*/
+
+
+#menu-base {
+    width: 100%;
+    height: 50px;
+    background-color: darkgrey;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.menu-list {
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-bouton {
+    margin-left: 12.5px;
+    margin-right: 12.5px;
+    font-family: "PoppinsBold";
+}
+
+#menu-base a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu-base a:hover {
+    text-decoration: underline;
+}
+
+/*-------------------------------------------------------------*/
+
+#main {
+    text-align: center;
+    width: 100%;
+    margin-top: 23%;
+    font-size: 50px;
+    font-family: "PoppinsBold";
+    color: darkgrey;
+    background-color: darkred;
+    
+}
+
+.titre {
+    height: 67px;
+}

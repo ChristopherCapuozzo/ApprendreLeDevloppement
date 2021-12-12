@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+
+/*-------------------------------------------------------------*/
+
+#maintenance {
+    text-align: center;
+    color: darkred;
+    width: 100%;
+    margin-top: 23%;
+    font-family: "PoppinsBold";
+    font-size: 20px;
+}
+
+.retour  {
+    margin: 20px;
+    width: 70px;
+    height: 30px;
+    border: none;
+    font-family: "PoppinsBold";
+    font-size: 15px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.retour  a{
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+}
+
+.retour:hover {
+    background-color: darkred;
+    width: 200px;
+}
