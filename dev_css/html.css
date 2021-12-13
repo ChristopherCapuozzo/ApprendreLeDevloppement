@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../img/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+
+/*-------------------------------------------------------------*/
+
+.retour  {
+    margin: 20px;
+    width: 70px;
+    height: 30px;
+    border: none;
+    font-family: "PoppinsBold";
+    font-size: 15px;
+    background-color: darkgray;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.retour  a{
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+}
+
+/*-------------------------------------------------------------*/
+
+.block-1 {
+    font-family: "PoppinsBold";
+    font-size: 35px;
+    margin-top: 5%;
+    margin-left: 5%;
+    background-color: darkgray;
+    width: 46%;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.html-base {
+    font-family: "PoppinsRegular";
+    font-size: 15px;
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: darkgray;
+}
+
+.html-exemple {
+    font-family: "PoppinsRegular";
+    font-size: 15px;
+    margin-top: 2%;
+    margin-left: 10%;
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;    
+    background-color: darkslategray;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.ex {
+    width: 35%;
+}
+
+.ex-1 {
+    border: 1px black solid;
+    background-color: white;
+    padding: 5px;
+    width: 60%;
+    border-radius: 4px;
+}
+
+.html-base-2 {
+    font-family: "PoppinsRegular";
+    font-size: 15px;
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 52%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: darkgray;
+}
+
+/*-------------------------------------------------------------*/
+
+.block-2 {
+    font-family: "PoppinsBold";
+    font-size: 35px;
+    margin-top: 5%;
+    margin-left: 5%;
+    background-color: darkgray;
+    width: 46%;
+    border-radius: 50px;
+    padding: 10px;
+}
