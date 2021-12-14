@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../img/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+
+/*-------------------------------------------------------------*/
+
+.retour  {
+    margin: 20px;
+    width: 70px;
+    height: 30px;
+    border: none;
+    font-family: "PoppinsBold";
+    font-size: 15px;
+    background-color: darkgray;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.retour  a{
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+}
+
+/*-------------------------------------------------------------*/
+
+.block-1 {
+    font-family: "PoppinsBold";
+    font-size: 35px;
+    margin-top: 4%;
+    margin-left: 3%;
+    background-color: darkgray;
+    width: 46%;
+    border-radius: 50px;
+    padding: 15px;
+    text-align: center;
+}
+
+.html-base {
+    font-family: "PoppinsRegular";
+    font-size: 15px;
+    margin-top: 2%;
+    margin-left: 10%;
+    width: 50%;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: darkgray;
+}
+
+.html-exemple {
+    font-family: "PoppinsRegular";
+    font-size: 15px;
+    margin-top: 2%;
+    margin-left: 15%;
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;    
+    background-color: darkslategray;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.ex {
+    width: 35%;
+}
+
+.ex-1 {
+    border: 1px black solid;
+    background-color: white;
+    padding: 5px;
+    width: 95%;
+    border-radius: 4px;
+}
+
+.html-base-2 {
+    font-family: "PoppinsRegular";
+    font-size: 15px;
+    margin-top: 2%;
+    margin-left: 10%;
+    width: 52%;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: darkgray;
+}
+
+/*-------------------------------------------------------------*/
+
+.block-2 {
+    font-family: "PoppinsBold";
+    font-size: 35px;
+    margin-top: 4%;
+    margin-left: 3%;
+    background-color: darkgray;
+    width: 46%;
+    border-radius: 50px;
+    padding: 15px;
+    text-align: center;
+}
+
+.html-base-3 {
+    font-family: "PoppinsRegular";
+    font-size: 15px;
+    margin-top: 2%;
+    margin-left: 15%;
+    width: 58%;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: darkslategray;
+}
+
+.html-list {
+    list-style-type: decimal;
+}
+
+.html-base-4 {
+    font-family: "PoppinsRegular";
+    font-size: 15px;
+    margin-top: 2%;
+    margin-left: 10%;
+    width: 66%;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: darkgray;
+}
+
+.html-base-5 {
+    font-family: "PoppinsRegular";
+    font-size: 15px;
+    margin-top: 2%;
+    margin-left: 15%;
+    width: 43%;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: darkslategray;
+}
+
+.ex-2 {
+    border: 1px black solid;
+    background-color: white;
+    padding: 5px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+/*-------------------------------------------------------------*/
+
+.block-3 {
+    font-family: "PoppinsBold";
+    font-size: 35px;
+    margin-top: 4%;
+    margin-left: 3%;
+    background-color: darkgray;
+    width: 46%;
+    border-radius: 50px;
+    padding: 15px;
+    text-align: center;
+}
+
+.html-exemple-2 {
+    font-family: "PoppinsRegular";
+    font-size: 15px;
+    margin-top: 2%;
+    margin-left: 15%;
+    width: 45%;
+    padding: 10px;
+    border-radius: 10px;    
+    background-color: darkslategray;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.ex-3 {
+    width: 25%;
+}
+
+.ex-4 {
+    border: 1px black solid;
+    background-color: white;
+    padding: 5px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.html-exemple-3 {
+    font-family: "PoppinsRegular";
+    font-size: 15px;
+    margin-top: 2%;
+    margin-left: 15%;
+    width: 40%;
+    padding: 10px;
+    border-radius: 10px;    
+    background-color: darkslategray;
+    display: flex;
+    align-items: center;
+}
+
+.ex-5 {
+    width: 50%;
+    margin-left: 25px;
+}
+
+.ex-6 {
+    border: 1px black solid;
+    background-color: white;
+    padding: 5px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.html-base-6 {
+    font-family: "PoppinsRegular";
+    font-size: 15px;
+    margin-top: 2%;
+    margin-left: 10%;
+    width: 60%;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: darkgray;
+}
+
+/*-------------------------------------------------------------*/
+
+.block-4 {
+    font-family: "PoppinsBold";
+    font-size: 35px;
+    margin-top: 4%;
+    margin-left: 3%;
+    background-color: darkgray;
+    width: 46%;
+    border-radius: 50px;
+    padding: 15px;
+    text-align: center;
+}
+
+.html-exemple-4 {
+    font-family: "PoppinsRegular";
+    font-size: 15px;
+    margin-top: 2%;
+    margin-left: 15%;
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;    
+    background-color: darkslategray;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.ex-7 {
+    border: 1px black solid;
+    background-color: white;
+    padding: 5px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.ex-8 {
+    width: 35%;
+}
+
+.html-base-7 {
+    font-family: "PoppinsRegular";
+    font-size: 15px;
+    margin-top: 2%;
+    margin-left: 10%;
+    width: 55%;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: darkgray;
+}
+
+/*-------------------------------------------------------------*/
+
+.block-5 {
+    font-family: "PoppinsBold";
+    font-size: 35px;
+    margin-top: 4%;
+    margin-left: 3%;
+    background-color: darkgray;
+    width: 46%;
+    border-radius: 50px;
+    padding: 15px;
+    text-align: center;
+}

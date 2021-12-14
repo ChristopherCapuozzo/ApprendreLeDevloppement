@@ -12,143 +12,104 @@
     <body>
         <section id="section-1">
             <button class="retour"><a href="../index.html">Retour</a></button>
-            <h1 class="block-1">Qu'est-ce que HTML, réellement ?</h1>
+            <button class="retour"><a href="../dev_html/html2.html">Suivant</a></button>
+
+            <h1 class="block-1">Où placer votre site web sur votre ordinateur ?</h1>
             <div class="html-base">
                 <p>
-                    HTML n'est pas un langage de programmation. C'est un langage de balises qui définit la structure de votre contenu.
+                    Lorsque vous travaillez sur votre site web sur votre propre ordinateur, 
+                    <br>
+                    tous les fichiers liés au site devraient être présents dans un dossier dont le contenu reflète la structure des fichiers sur le serveur. 
                     <br>
                     <br>
-                    HTML se compose d'une série d'éléments, utilisés pour entourer, ou envelopper, les diverses parties du contenu pour les faire apparaître ou agir d'une certaine façon.
+                    Ce dossier peut être n'importe où sur votre ordinateur, l'idéal étant qu'il soit simple à retrouver, 
                     <br>
-                    <br>
-                    Les balises entourantes peuvent être rendues par un mot ou une image lien hypertexte vers quelque chose d'autre, un texte en italique, une police plus grande ou plus petite, et ainsi de suite.
+                    par exemple sur votre Bureau ou dans votre dossier personnel, voire à la racine du disque dur.
                 </p>
             </div>
             <div class="html-exemple">
-                <p class="ex"><strong>Exemple :</strong></p><p class="ex-1">Mon chat est très grincheux</p>
-            </div>
-            <div class="html-base-2">
-                <p>Si vous souhaitez que cette ligne reste ainsi, nous indiquerons qu'il s'agit d'un paragraphe en l'entourant des balises paragraphe</p>
-            </div>
-            <div class="html-exemple">
-                <p class="ex"><strong>Exemple :</strong></p><Mon class="ex-1">&lt;<b style="color: red">p</b>&gt;Mon chat est très grincheux&lt;<b style="color: red">/p</b>&gt;
-                </p>
-            </div>
-            <h1 class="block-2">Anatomie d'un élément HTML</h1>
-            <div class="html-base-3">
-                <p>
-                    Regardons de plus près cet élément paragraphe, les composants principaux de notre élément sont :
+                <ul class="html-list">
+                    <li class="ex-1">
+                        Sélectionnez un endroit où stocker vos projets de sites web. Là, créez un nouveau dossier appelé projets-web (ou similaire). C'est l'endroit où vivront vos divers projets de sites web.
+                    </li>
                     <br>
-                    <br>
-                    <ul class="html-list">
-                        <li class="ex-1">
-                            <strong>La balise ouvrante: </strong>
-                            celle-ci se compose du nom de l'élément (ici « p »), entre deux chevrons.
-                            <br>
-                            Cela indique le début de l'élément, soit l'endroit à partir duquel celui-ci prend effet. Pour notre exemple, cela indique le début du paragraphe.
-                        </li>
+                    <li class="ex-1">
+                        À l'intérieur de ce premier dossier, créez un autre dossier pour y enregistrer votre premier site web. 
                         <br>
-                        <li class="ex-1">
-                            <strong>La balise fermante : </strong>
-                            ici on a également des chevrons et le nom de l'élément, auxquels on ajoute une barre oblique avant le nom de l'élément.
-                            <br>
-                            Cela indique la fin de l'élément. Pour notre exemple, cela indique la fin du paragraphe. Oublier la balise fermante est une erreur courante de débutant et peut conduire à de curieux résultats.
-                        </li>
-                        <br>
-                        <li class="ex-1">
-                            <strong>Le contenu : </strong>C'est le contenu de l'élément. Ici, c'est simplement du texte.
-                        </li>
-                        <br>
-                        <li class="ex-1">
-                            <strong>L'élément : </strong>Il est composé de la balise ouvrante, de la balise fermante et du contenu.
-                        </li>
-                    </ul>
-                </p>
+                        Vous pouvez l'appeler site-test (ou plus imaginatif).
+                    </li>
+                </ul>
             </div>
-            <div class="html-base-4">
-                <p>
-                    Les éléments peuvent aussi avoir des « attributs » !
-                    <br>
-                    <br>
-                    Les attributs contiennent des informations supplémentaires qui portent sur l'élément et qu'on ne souhaite pas afficher avec le contenu.
-                    <br>
-                    Dans cet exemple, l'attribut class permet d'utiliser un nom pour identifier l'élément et ce nom pourra être utilisé plus tard pour la mise en forme ou autre chose.
-                </p>
-            </div>
-            <div class="html-base-5">
-                <p>
-                    Un attribut doit toujours avoir : 
-                    <br>
-                    <br>
-                    <ul class="html-list">
-                        <li class="ex-2">
-                            Un espace entre l'attribut et le nom de l'élément ou l'attribut précédent (s'il y a plusieurs attributs)
-                        </li>
-                        <br>
-                        <li class="ex-2">
-                            Un nom (le nom de l'attribut), suivi d'un signe égal « = » 
-                        </li>
-                        <br>
-                        <li class="ex-2">
-                            Des guillemets anglais (") pour encadrer la valeur de l'attribut.
-                        </li>
-                    </ul>
-                </p>
-            </div>
-            <h1 class="block-3">Imbriquer des éléments</h1>
+            <h1 class="block-2">Un rapide aparté sur la casse et l'espacement</h1>
             <div class="html-base">
                 <p>
-                    Vous pouvez placer des éléments au sein d'autres éléments, c'est ce qu'on appelle l'imbrication. 
+                    Vous remarquerez tout au long de cet article,
                     <br>
-                    <br>
-                    Par exemple, si vous souhaitez montrer que votre chat est très grincheux, 
-                    <br>
-                    <br>
-                    vous pouvez placer le mot « très » dans un élement &lt;<b style="color: red">strong</b>&gt;, signifiant que le mot sera fortement mis en relief
+                    nous vous demandons de nommer les dossiers et les fichiers totalement en minuscules et sans espace. Voici la raison :
                 </p>
             </div>
             <div class="html-exemple-2">
-                <p class="ex-3">
-                    <strong>Exemple :</strong></p><p class="ex-4">&lt;<b style="color: red">p</b>&gt; Mon chat est &lt;<b style="color: red">strong</b>&gt; <strong>très</strong> &lt;<b style="color: red">/strong</b>&gt grincheux &lt;<b style="color: red">/p</b>&gt;
+                <ul class="html-list">
+                    <li class="ex-1">
+                        Nombre d'ordinateurs, notamment des serveurs web, sont sensibles à la casse. 
+                        <br>
+                        Par exemple, si vous placez une image pour votre site à l'emplacement site-test/MonImage.jpg et que, dans un autre fichier, vous faites référence à site-test/monimage.jpg, cela peut ne pas fonctionner.
+                    </li>
+                    <br>
+                    <li class="ex-1">
+                        Les navigateurs, les serveurs web et les différents langages de programmation ne gèrent pas tous les espaces de la même façon. 
+                        <br>
+                        <br>
+                        Par exemple, si vous utilisez un espace dans le nom du fichier, certains systèmes considèreront que le nom du fichier correspond à celui de deux fichiers.
+                        <br>
+                        <br>
+                        Certains serveurs remplaceront les espaces dans le nom du fichier par « %20 » (le code de caractère pour représenter les espaces dans les URI), ce qui cassera tous vos liens.
+                        <br>
+                        <br>
+                        Il est préférable de séparer les mots avec des tirets, plutôt que des soulignés : mon-fichier.html vs. mon_fichier.html.
+                    </li>
+                </ul>
+            </div>
+            <div class="html-base">
+                <p>
+                    La réponse la plus simple est d'utiliser le trait d'union (-) pour les noms de fichiers. 
+                    <br>
+                    Google traite le tiret comme un séparateur de mots, mais n'opère pas de même pour le souligné (_). 
+                    <br>
+                    <br>
+                    Pour ces raisons, il est préférable d'écrire les noms des fichiers et dossiers en minuscules sans espaces, les mots étant séparés par des tirets, à moins d'être sûr de ce que vous faites. 
+                    <br>
+                    <br>
+                    Cela vous permettra d'éviter certains problèmes en chemin, plus tard.
                 </p>
             </div>
-            <div class="html-base-4">
+            <h1 class="block-3">Quelle structure mettre en place pour votre site web ?</h1>
+            <div class="html-base">
                 <p>
-                    Toutefois, il faut faire attention à ce que les éléments soient bien imbriqués les uns dans les autres.
+                    Cela dit, regardons la structure que le site de test devrait avoir. 
                     <br>
                     <br>
-                    Dans l'exemple précédent, on ouvre l'élément &lt;<b style="color: red">p</b>&gt;, puis l'élément &lt;<b style="color: red">strong</b>&gt;. Nous devrons donc fermer l'élément &lt;<b style="color: red">/strong</b>&gt; d'abord, puis l'élement &lt;<b style="color: red">/p</b>&gt;. 
+                    Les éléments retrouvés quasiment dans tout projet de site web sont un fichier HTML d'index, des dossiers pour les images, les scripts et les feuilles de style. Créons‑les maintenant :
                 </p>
             </div>
             <div class="html-exemple-3">
-                <p class="ex-5">
-                    <strong>Le code suivant est incorrect :</strong> </p><p class="ex-6">&lt;<b style="color: red">p</b>&gt; Mon chat est &lt;<b style="color: red">strong</b>&gt; très grincheux &lt;<b style="color: red">/p</b>&gt; &lt;<b style="color: red">/strong</b>&gt
-                </p>
-            </div>
-            <div class="html-base-6">
-                <p>
-                    Les éléments doivent être ouverts et fermés correctement de façon à ce qu'ils soient clairement à l'intérieur ou à l'extérieur les uns des autres. 
+                <ul class="html-list">
+                    <li class="ex-3">
+                        index.html : ce fichier contiendra généralement le contenu de votre page d'accueil, c'est-à-dire le texte et les images que les gens verront lorsqu'ils arriveront sur votre site. Avec votre éditeur de texte, créez un fichier nommé index.html puis enregistrez‑le dans votre dossier site-test.
+                    </li>
                     <br>
+                    <li class="ex-3">
+                        un dossier images : ce dossier contiendra toutes les images utilisées pour votre site. Créez un dossier nommé images dans votre dossier site-test.
+                    </li>
                     <br>
-                    S'ils se chevauchent, le navigateur essaiera de choisir la meilleure option, 
+                    <li class="ex-3">
+                        <strong>Un dossier styles :</strong> ce dossier contiendra le code des CSS utilisé pour la mise en forme du contenu (par exemple pour définir les couleurs à utiliser pour le texte et l'arrière-plan). Créez un dossier nommé styles dans votre dossier site-test.
+                    </li>
                     <br>
-                    qui ne sera peut-être pas ce que vous vouliez dire et pourrait conduire à des résultats inattendus. 
-                    <br>
-                    <br>
-                    Donc ne le faites pas !
-                </p>
-            </div>
-            <h1 class="block-4">Les éléments vides</h1>
-            <div class="html-base">
-                <p>
-                    Certains éléments n'ont pas de contenu. Ces éléments sont appelés éléments vides.
-                    <br>
-                    <br>
-                    Prenons l'élément &lt;<b style="color: red">img</b>&gt; présent dans notre fichier HTML :
-                </p>
-            </div>
-            <div class="html-exemple-4">
-                <p class="ex-8"><strong>Exemple :</strong></p><p class="ex-7">&lt;<b style="color: red">img</b>&gt; <b style="color: blue;">src</b>="images/firefox-icon.png"  <b style="color: green;">alt</b>="Mon image test"/&gt;</p>
+                    <li class="ex-3">
+                        <strong>Un dossier scripts :</strong> ce dossier contiendra le code JavaScript utilisé pour ajouter des fonctionnalités interactives sur votre site (par exemple, des boutons qui permettent de charger des données lorsqu'on clique dessus). Créez un dossier nommé scripts dans votre dossier site-test.
+                    </li>
+                </ul>
             </div>
         </section>
     </body>

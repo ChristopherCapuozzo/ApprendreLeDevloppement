@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../dev_css/html2.css">
+        <link rel="stylesheet" type="text/css" href="../css/font.css">
+        <link rel="shortcut icon" type="image/ico" href="../img/html.ico">
+        <title>HTML</title>
+    </head>
+    <body>
+        <section id="section-1">
+            <button class="retour"><a href="../dev_html/html.html">Retour</a></button>
+            <h1 class="block-1">Qu'est-ce que HTML, réellement ?</h1>
+            <div class="html-base">
+                <p>
+                    HTML n'est pas un langage de programmation. C'est un langage de balises qui définit la structure de votre contenu.
+                    <br>
+                    <br>
+                    HTML se compose d'une série d'éléments, utilisés pour entourer, ou envelopper, les diverses parties du contenu pour les faire apparaître ou agir d'une certaine façon.
+                    <br>
+                    <br>
+                    Les balises entourantes peuvent être rendues par un mot ou une image lien hypertexte vers quelque chose d'autre, un texte en italique, une police plus grande ou plus petite, et ainsi de suite.
+                </p>
+            </div>
+            <div class="html-exemple">
+                <p class="ex"><strong>Exemple :</strong></p><p class="ex-1">Mon chat est très grincheux</p>
+            </div>
+            <div class="html-base-2">
+                <p>Si vous souhaitez que cette ligne reste ainsi, nous indiquerons qu'il s'agit d'un paragraphe en l'entourant des balises paragraphe</p>
+            </div>
+            <div class="html-exemple">
+                <p class="ex"><strong>Exemple :</strong></p><Mon class="ex-1">&lt;<b style="color: red">p</b>&gt;Mon chat est très grincheux&lt;<b style="color: red">/p</b>&gt;
+                </p>
+            </div>
+            <h1 class="block-2">Anatomie d'un élément HTML</h1>
+            <div class="html-base-3">
+                <p>
+                    Regardons de plus près cet élément paragraphe, les composants principaux de notre élément sont :
+                    <br>
+                    <br>
+                    <ul class="html-list">
+                        <li class="ex-1">
+                            <strong>La balise ouvrante: </strong>
+                            celle-ci se compose du nom de l'élément (ici « p »), entre deux chevrons.
+                            <br>
+                            Cela indique le début de l'élément, soit l'endroit à partir duquel celui-ci prend effet. Pour notre exemple, cela indique le début du paragraphe.
+                        </li>
+                        <br>
+                        <li class="ex-1">
+                            <strong>La balise fermante : </strong>
+                            ici on a également des chevrons et le nom de l'élément, auxquels on ajoute une barre oblique avant le nom de l'élément.
+                            <br>
+                            Cela indique la fin de l'élément. Pour notre exemple, cela indique la fin du paragraphe. Oublier la balise fermante est une erreur courante de débutant et peut conduire à de curieux résultats.
+                        </li>
+                        <br>
+                        <li class="ex-1">
+                            <strong>Le contenu : </strong>C'est le contenu de l'élément. Ici, c'est simplement du texte.
+                        </li>
+                        <br>
+                        <li class="ex-1">
+                            <strong>L'élément : </strong>Il est composé de la balise ouvrante, de la balise fermante et du contenu.
+                        </li>
+                    </ul>
+                </p>
+            </div>
+            <div class="html-base-4">
+                <p>
+                    Les éléments peuvent aussi avoir des « attributs » !
+                    <br>
+                    <br>
+                    Les attributs contiennent des informations supplémentaires qui portent sur l'élément et qu'on ne souhaite pas afficher avec le contenu.
+                    <br>
+                    Dans cet exemple, l'attribut class permet d'utiliser un nom pour identifier l'élément et ce nom pourra être utilisé plus tard pour la mise en forme ou autre chose.
+                </p>
+            </div>
+            <div class="html-base-5">
+                <p>
+                    Un attribut doit toujours avoir : 
+                    <br>
+                    <br>
+                    <ul class="html-list">
+                        <li class="ex-2">
+                            Un espace entre l'attribut et le nom de l'élément ou l'attribut précédent (s'il y a plusieurs attributs)
+                        </li>
+                        <br>
+                        <li class="ex-2">
+                            Un nom (le nom de l'attribut), suivi d'un signe égal « = » 
+                        </li>
+                        <br>
+                        <li class="ex-2">
+                            Des guillemets anglais (") pour encadrer la valeur de l'attribut.
+                        </li>
+                    </ul>
+                </p>
+            </div>
+            <h1 class="block-3">Imbriquer des éléments</h1>
+            <div class="html-base">
+                <p>
+                    Vous pouvez placer des éléments au sein d'autres éléments, c'est ce qu'on appelle l'imbrication. 
+                    <br>
+                    <br>
+                    Par exemple, si vous souhaitez montrer que votre chat est très grincheux, 
+                    <br>
+                    <br>
+                    vous pouvez placer le mot « très » dans un élement &lt;<b style="color: red">strong</b>&gt;, signifiant que le mot sera fortement mis en relief
+                </p>
+            </div>
+            <div class="html-exemple-2">
+                <p class="ex-3">
+                    <strong>Exemple :</strong></p><p class="ex-4">&lt;<b style="color: red">p</b>&gt; Mon chat est &lt;<b style="color: red">strong</b>&gt; <strong>très</strong> &lt;<b style="color: red">/strong</b>&gt grincheux &lt;<b style="color: red">/p</b>&gt;
+                </p>
+            </div>
+            <div class="html-base-4">
+                <p>
+                    Toutefois, il faut faire attention à ce que les éléments soient bien imbriqués les uns dans les autres.
+                    <br>
+                    <br>
+                    Dans l'exemple précédent, on ouvre l'élément &lt;<b style="color: red">p</b>&gt;, puis l'élément &lt;<b style="color: red">strong</b>&gt;. Nous devrons donc fermer l'élément &lt;<b style="color: red">/strong</b>&gt; d'abord, puis l'élement &lt;<b style="color: red">/p</b>&gt;. 
+                </p>
+            </div>
+            <div class="html-exemple-3">
+                <p class="ex-5">
+                    <strong>Le code suivant est incorrect :</strong> </p><p class="ex-6">&lt;<b style="color: red">p</b>&gt; Mon chat est &lt;<b style="color: red">strong</b>&gt; très grincheux &lt;<b style="color: red">/p</b>&gt; &lt;<b style="color: red">/strong</b>&gt
+                </p>
+            </div>
+            <div class="html-base-6">
+                <p>
+                    Les éléments doivent être ouverts et fermés correctement de façon à ce qu'ils soient clairement à l'intérieur ou à l'extérieur les uns des autres. 
+                    <br>
+                    <br>
+                    S'ils se chevauchent, le navigateur essaiera de choisir la meilleure option, 
+                    <br>
+                    qui ne sera peut-être pas ce que vous vouliez dire et pourrait conduire à des résultats inattendus. 
+                    <br>
+                    <br>
+                    Donc ne le faites pas !
+                </p>
+            </div>
+            <h1 class="block-4">Les éléments vides</h1>
+            <div class="html-base">
+                <p>
+                    Certains éléments n'ont pas de contenu. Ces éléments sont appelés éléments vides.
+                    <br>
+                    <br>
+                    Prenons l'élément &lt;<b style="color: red">img</b>&gt; présent dans notre fichier HTML :
+                </p>
+            </div>
+            <div class="html-exemple-4">
+                <p class="ex-8"><strong>Exemple :</strong></p><p class="ex-7">&lt;<b style="color: red">img</b>&gt; <b style="color: blue;">src</b>="images/firefox-icon.png"  <b style="color: green;">alt</b>="Mon image test"/&gt;</p>
+            </div>
+            <div class="html-base-7">
+                <p>
+                    Cet élément contient deux attributs mais les balises ouvrante &lt;<b style="color: red">img</b>&gt; et fermante &lt;<b style="color: red">/img</b>&gt; 
+                    <br>
+                    <br>
+                    Elle es remplacées par une balise auto-fermante &lt;<b style="color: red">img/</b>&gt; et il n'y a aucun contenu interne. 
+                    <br>
+                    <br>
+                    En effet, l'élément image n'embarque pas de contenu. 
+                    <br>
+                    <br>
+                    Son but est d'intégrer une image dans la page HTML, à l'endroit où l'élément est placé.
+                </p>
+            </div>
+            <h1 class="block-5">Anatomie d'un document HTML</h1>
+            <div class="html-base">
+                <p>
+                    Vous pouvez placer des éléments au sein d'autres éléments, c'est ce qu'on appelle l'imbrication. 
+                    <br>
+                    <br>
+                    Par exemple, si vous souhaitez montrer que votre chat est très grincheux, 
+                    <br>
+                    <br>
+                    vous pouvez placer le mot « très » dans un élement &lt;<b style="color: red">strong</b>&gt;, signifiant que le mot sera fortement mis en relief
+                </p>
+            </div>    
+        </section>
+    </body>
+</html>
