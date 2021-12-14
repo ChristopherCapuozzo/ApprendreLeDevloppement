@@ -111,6 +111,73 @@
                     </li>
                 </ul>
             </div>
+            <h1 class="block-3-2">Les chemins de fichiers</h1>
+            <div class="html-base">
+                <p>
+                    Pour que les fichiers puissent converser entre eux, il faut préciser le chemin pour les trouver — en résumé, la route qu'un fichier doit connaître pour situer l'autre fichier. 
+                    <br>
+                    <br>
+                    Nous allons illustrer cela avec un peu de HTML dans index.html pour que la page affiche l'image choisie dans l'article
+                </p>
+            </div>
+            <div class="html-exemple">
+                <ul class="html-list">
+                    <li class="ex-3">
+                        Copiez l'image précédemment choisie dans votre dossier images.
+                    </li>
+                    <br>
+                    <li class="ex-3">
+                        Ouvrez le fichier index.html et insérez le code suivant exactement comme indiqué. Ne vous préoccupez pas de sa signification pour le moment — nous verrons les structures plus en détail par la suite.
+                    </li>
+                    <br>
+                    <div>
+                        <p class="ex-4">
+                            <strong>Exemple :</strong>
+                            <br>
+                            &lt;<b style="color: blue">!DOCTYPE</b> <b style="color: gray"></b>html</b>&gt;
+                            <br>
+                            &emsp;&emsp;&lt;<b style="color: red">html</b>&gt;
+                            <br>
+                            &emsp;&emsp;&emsp;&emsp;&lt;<b style="color: red">head</b>&gt;
+                            <br>
+                            &emsp;&emsp;&emsp;&emsp;&emsp;&lt;<b style="color: red">meta</b> <b style="color: green">charset=</b>"UTF-8"&gt;
+                            <br>
+                            &emsp;&emsp;&emsp;&emsp;&emsp;&lt;<b style="color: red">title</b>&gt;Ma page test&lt;<b style="color: red">/title</b>&gt;
+                            <br>
+                            &emsp;&emsp;&emsp;&emsp;&lt;<b style="color: red">/head</b>&gt;
+                            <br>
+                            &emsp;&emsp;&emsp;&emsp;&lt;<b style="color: red">body</b>&gt;
+                            <br>
+                            &emsp;&emsp;&emsp;&emsp;&emsp;&lt;<b style="color: red">img</b> <b style="color: green">src=</b>"" <b style="color: green">alt=</b>"Mon image de test"/&gt;
+                            <br>
+                            &emsp;&emsp;&emsp;&emsp;&lt;<b style="color: red">/body</b>&gt;
+                            <br>
+                            &emsp;&emsp;&lt;<b style="color: red">/html</b>&gt;
+                        </p>
+                    </div>
+                    <br>
+                    <li class="ex-3">
+                        La ligne qui contient &lt;<b style="color: red">img</b> <b style="color: green">src=</b>"" <b style="color: green">alt=</b>"Mon image de test"/> correspond au code qui insère une image à la page. 
+                        <br>
+                        <br>
+                        Il faut indiquer au HTML là où l'image se trouve. Cette image est à l'intérieur du dossier images et ce dossier se situe dans le même dossier qu'index.html. 
+                        <br>
+                        <br>
+                        Pour parcourir l'arborescence des fichiers depuis index.html jusqu'à l'image, le chemin à utiliser est images/votre‑fichier‑image. 
+                        <br>
+                        <br>
+                        Par exemple, si l'image est nommée firefox‑icon.png, le chemin sera images/firefox-icon.png.
+                    </li>
+                    <br>
+                    <li class="ex-3">
+                        Insérez le chemin vers le fichier image dans le code HTML, entre les guillemets dans src="".
+                    </li>
+                    <br>
+                    <li class="ex-3">
+                        Sauvegardez votre fichier HTML puis chargez la page dans votre navigateur (il suffit de double-cliquer sur le fichier). Vous devriez obtenir une nouvelle page web affichant l'image !
+                    </li>
+                </ul>
+            </div>
         </section>
     </body>
 </html>
