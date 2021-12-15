@@ -12,7 +12,7 @@
     <body>
         <section id="section-1">
             <button class="retour"><a href="../dev_html/html.html">Retour</a></button>
-            <button class="suivant"><a href="../dev_html/html2.html">Suivant</a></button>
+            <button class="suivant"><a href="../maintenance.html">Suivant</a></button>
             
             <h1 class="block-1">Qu'est-ce que HTML, réellement ?</h1>
             <div class="html-base">
@@ -177,7 +177,119 @@
                     <br>
                     Nous allons repartir de l'exemple contenu dans le fichier index.html
                 </p>
-            </div>    
+            </div>
+            <div class="html-exemple-5">
+                <br>
+                <p class="ex-9">
+                    &lt;<b style="color: blue">!DOCTYPE</b> <b style="color: gray"></b>html</b>&gt;
+                    <br>
+                    &emsp;&emsp;&lt;<b style="color: red">html</b>&gt;
+                    <br>
+                    &emsp;&emsp;&emsp;&emsp;&lt;<b style="color: red">head</b>&gt;
+                    <br>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&lt;<b style="color: red">meta</b> <b style="color: green">charset=</b>"UTF-8"&gt;
+                    <br>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&lt;<b style="color: red">title</b>&gt;Ma page test&lt;<b style="color: red">/title</b>&gt;
+                    <br>
+                    &emsp;&emsp;&emsp;&emsp;&lt;<b style="color: red">/head</b>&gt;
+                    <br>
+                    &emsp;&emsp;&emsp;&emsp;&lt;<b style="color: red">body</b>&gt;
+                    <br>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&lt;<b style="color: red">img</b> <b style="color: green">src=</b>"" <b style="color: green">alt=</b>"Mon image de test"/&gt;
+                    <br>
+                    &emsp;&emsp;&emsp;&emsp;&lt;<b style="color: red">/body</b>&gt;
+                    <br>
+                    &emsp;&emsp;&lt;<b style="color: red">/html</b>&gt;
+                </p>
+            </div>
+
+            <div class="html-base-5">
+                <p>
+                    <strong>L'exemple au-dessus contient :</strong>
+                    <br>
+                    <br>
+                    <ul class="html-list">
+                        <li class="ex-2">
+                            &lt;<b style="color: blue">!DOCTYPE</b> <b style="color: gray"></b>html</b>&gt; — le doctype. 
+                            <br>
+                            Au début de HTML, dans les années 1991-1992, les doctypes étaient utilisés pour faire référence à des ensembles de règles qu'on pouvait utiliser pour dire qu'un document était du HTML « valide » et détecter les erreurs de balisage.
+                            <br>
+                            <br>
+                            Cependant, ceux-ci ne sont plus utilisés aujourd'hui et sont juste présents pour s'assurer que la page puisse fonctionner y compris sur les anciens navigateurs. Pour le moment, c'est tout ce qu'il y a à savoir à propos des doctypes.
+                        </li>
+                        <br>
+                        <li class="ex-2">
+                            &lt;<b style="color: red">html</b>&gt;&lt;<b style="color: red">/html</b>&gt; — l'élément &lt;<b style="color: red">html</b>&gt;. Cet élément encadre tout le contenu de la page.
+                            <br>
+                            Cet élément est parfois appelé l'élément racine.
+                        </li>
+                        <br>
+                        <li class="ex-2">
+                            &lt;<b style="color: red">head</b>&gt;&lt;<b style="color: red">/head</b>&gt; — l'élément &lt;<b style="color: red">head</b>&gt;. 
+                            <br>
+                            Cet élément est utilisé comme un container pour toutes les choses qui font partie de la page HTML mais qui ne sont pas du contenu affiché.
+                            <br>
+                            <br>
+                            C'est dans cet élément qu'on mettra des mots-clés, une description de la page qui apparaîtra sur les moteurs de recherche, les liens vers les fichiers CSS à utiliser pour la mise en forme, les déclarations des jeux de caractères à utiliser et ainsi de suite.
+                        </li>
+                        <br>
+                        <li class="ex-2">
+                            &lt;<b style="color: red">body</b>&gt;&lt;<b style="color: red">/body</b>&gt; — l'élément &lt;<b style="color: red">body</b>&gt;. 
+                            <br>
+                            Cet élément est celui qui contient tout le contenu que vous souhaitez afficher pour qu'il soit vu par les visiteurs : cela peut être du texte, des images, des vidéos, des jeux, des pistes audio jouables, et ainsi de suite.
+                        </li>
+                        <br>
+                        <li class="ex-2">
+                            &lt;<b style="color: red">meta</b> <b style="color: green">charset=</b>"UTF-8"&gt; — 
+                            <br>
+                            Cet élément définit le jeu de caractères qui devrait être utilisé pour le document et indique que c'est utf-8. 
+                            <br>
+                            utf-8 regroupe l'ensemble des caractères connus utilisés dans les différents langages humains. Généralement, utf-8 permet de gérer n'importe quel texte que vous pourriez utiliser sur la page. Il n'y a pas de raison de ne pas le définir, et il permet d'éviter certains problèmes plus tard.
+                        </li>
+                        <br>
+                        <li class="ex-2">
+                            &lt;<b style="color: red">title</b>&gt;&lt;<b style="color: red">/title</b>&gt; — L'élément &lt;<b style="color: red">title</b>&gt; définit le titre de votre page. 
+                            <br>
+                            C'est ce titre qui apparaîtra sur l'onglet lorsque la page sera chargée.
+                            <br>
+                            <br>
+                            C'est ce titre qui sera utilisé pour décrire la page lorsque vous la placez dans vos marques-pages.
+                        </li>
+                    </ul>
+                </p>
+            </div>
+            <h1 class="block-6">Images</h1>
+            <div class="html-base">
+                <p>Regardons à nouveau l'élément image :</p>
+                <br>
+                <p class="ex-10">&lt;<b style="color: red">img</b>&gt; <b style="color: blue;">src</b>="images/firefox-icon.png"  <b style="color: green;">alt</b>="Mon image test"/&gt;</p>
+                <br>
+                Nous avons aussi utilisé l'attribut alt (pour alternatif). 
+            </div>
+            <div class="html-base-5">
+                <p>
+                    Il contient un texte descriptif de l'image à l'intention des utilisateurs qui ne peuvent pas voir l'image, car : 
+                    <br>
+                    <br>
+                    <ul class="html-list">
+                        <li class="ex-2">
+                            ils sont mal-voyants. 
+                            <br>
+                            <br>
+                            Les utilisateurs handicapés visuellement utilisent souvent des outils nommés lecteurs d'écrans pour lire le texte de cet attribut ;
+                        </li>
+                        <br>
+                        <li class="ex-2">
+                            Quelque chose s'est mal passé et l'image n'a pas pu être affichée. 
+                            <br>
+                            Par exemple, modifiez volontairement le chemin dans votre attribut src et faites qu'il soit incorrect.
+                            <br>
+                            <br>
+                            Si vous enregistrez et rechargez la page, vous verrez donc votre image
+                        </li>
+                    </ul>
+                </p>
+            </div>
         </section>
     </body>
 </html>

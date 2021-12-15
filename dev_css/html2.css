@@ -166,7 +166,7 @@ body::-webkit-scrollbar {
     font-size: 15px;
     margin-top: 2%;
     margin-left: 15%;
-    width: 43%;
+    width: 46%;
     padding: 30px;
     border-radius: 10px;
     background-color: darkslategray;
@@ -289,7 +289,7 @@ body::-webkit-scrollbar {
     border: 1px black solid;
     background-color: white;
     padding: 5px;
-    width: 100%;
+    width: 80%;
     border-radius: 4px;
 }
 
@@ -319,5 +319,64 @@ body::-webkit-scrollbar {
     width: 46%;
     border-radius: 50px;
     padding: 15px;
+    text-align: center;
+}
+
+.html-exemple-5 {
+    font-family: "PoppinsRegular";
+    font-size: 15px;
+    margin-top: 2%;
+    margin-left: 15%;
+    width: 38%;
+    padding: 10px;
+    border-radius: 10px;    
+    background-color: darkslategray;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.ex-9 {
+    border: 1px black solid;
+    background-color: white;
+    padding: 5px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+/*-------------------------------------------------------------*/
+
+.block-6 {
+    font-family: "PoppinsBold";
+    font-size: 35px;
+    margin-top: 4%;
+    margin-left: 6%;
+    background-color: darkgray;
+    width: 25%;
+    border-radius: 50px;
+    padding: 15px;
+    text-align: center;
+}
+
+.html-exemple-6 {
+    font-family: "PoppinsRegular";
+    font-size: 15px;
+    margin-top: 2%;
+    margin-left: 15%;
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;    
+    background-color: darkslategray;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.ex-10 {
+    border: 1px black solid;
+    background-color: white;
+    padding: 5px;
+    width: 100%;
+    border-radius: 4px;
     text-align: center;
 }
