@@ -4,13 +4,15 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="../dev_css/html3.css">
+        <link rel="stylesheet" type="text/css" href="../dev_html/html3.css">
         <link rel="stylesheet" type="text/css" href="../css/font.css">
         <link rel="shortcut icon" type="image/ico" href="../img/html.ico">
         <title>HTML</title>
     </head>
     <body>
         <button class="retour"><a href="../dev_html/html2.html">Retour</a></button>
+        <button class="suivant"><a href="../dev_html/html4.html">Suivant</a></button>
+
         <h1 class="small-block">Baliser le texte</h1>
         <div class="html-base">
             <p>
@@ -77,7 +79,7 @@
                 HTML a donc des éléments utilisés pour représenter ces listes. Le balisage des listes contient toujours au moins deux éléments. Les types de listes utilisés fréquemment sont les listes ordonnées et les listes non-ordonnées :
             </p>
         </div>
-        <div class="html-titre">
+        <div class="html-titre-long">
             <ul >
                 <li class="list-titre">
                     Les listes non-ordonnées sont des listes pour lesquelles l'ordre des éléments n'a pas d'importance (par exemple une liste d'emplettes). 
@@ -86,9 +88,104 @@
                 </li>
                 <br>
                 <li class="list-titre">
-                    Les listes ordonnées sont des listes pour lesquelles l'ordre des éléments est important (par exemple une recette). La balise utilisée pour ces listes est l'élément &lt;<b style="color: blue">ol</b>&gt; (ol signifie *ordered list* liste ordonnée en anglais)
+                    Les listes ordonnées sont des listes pour lesquelles l'ordre des éléments est important (par exemple une recette).
+                    <br>
+                    La balise utilisée pour ces listes est l'élément &lt;<b style="color: blue">ol</b>&gt; (ol signifie *ordered list* liste ordonnée en anglais)
                 </li>
             </ul>
         </div>
+        <div class="html-base">
+            <p>
+                Chaque élément d'une liste est balisé avec un élément &lt;<b style="color: blue">li</b>&gt; (list item).
+            </p>
+        </div>
     </body>
+    <div class="html-titre-list">
+        <br>
+        <p>
+            <strong>Par exemple, si on souhaite modifier un paragraphe en une liste :</strong>
+            <br>
+            <br>
+            <ul class="list-titre-list">
+                <li>
+                    &lt;<b style="color: red">p</b>&gt;Ma liste de course : Pain, Tomate, Lingette&lt;<b style="color: red">/p</b>&gt;
+                </li>
+            </ul>
+            <br>
+            <strong>On pourrait faire :</strong>
+            <br>
+            <br>
+            <ul class="list-titre-list-2">
+                <li>
+                    &emsp;&lt;<b style="color: red">p</b>&gt;Ma liste de course :&lt;<b style="color: red">/p</b>&gt;
+                    <br>
+                    <br>
+                    &emsp;&lt;<b style="color: red">ul</b>&gt;
+                    <br>
+                    &emsp;&emsp;&emsp;&lt;<b style="color: red">li</b>&gt;Pain&lt;<b style="color: red">/li</b>&gt;
+                    <br>
+                    &emsp;&emsp;&emsp;&lt;<b style="color: red">li</b>&gt;Tomate&lt;<b style="color: red">/li</b>&gt;
+                    <br>
+                    &emsp;&emsp;&emsp;&lt;<b style="color: red">li</b>&gt;Lingette&lt;<b style="color: red">/li</b>&gt;
+                    <br>
+                    &emsp;&lt;<b style="color: red">/ul</b>&gt;
+                </li>
+            </ul>
+        </p>
+    </div>
+    <div class="html-base">
+        <p>
+            <strong>Essayez d'ajouter une liste ordonnée ou non-ordonnée sur votre page.</strong>
+        </p>
+    </div>
+    <h1 class="small-block">Les liens</h1>
+    <div class="html-base">
+        <p>
+            Les liens sont très importants, ce sont eux qui font que le web est une toile sur laquelle on peut naviguer de page en page.
+            <br>
+            <br>
+            Pour créer un lien, il suffit d'utiliser l'élément &lt;<b style="color: red">a</b>&gt; (le a est un raccourci pour « ancre »). 
+            <br>
+            <br>
+            Pour transformer du texte en un lien, suivez ces étapes :
+        </p>
+    </div>
+    <div class="html-exemple">
+        <p>
+            <strong>Choisissez un texte (ici, nous travaillerons avec le texte « Clique-ici ».</strong>
+            <br>
+            <br>
+            Encadrez le texte dans un élément &lt;<b style="color: blue">a</b>&gt;
+            <br>
+            <br>
+            <ul>
+                <li class="list-titre">
+                    &lt;<b style="color: blue">a</b>&gt;Clique-ici&lt;<b style="color: blue">/a</b>&gt;
+                </li>
+            </ul>
+            <br>
+            Fournissez un attribut href pour l'élément &lt;<b style="color: blue">a</b>&gt;, de cette façon
+            <br>
+            <br>
+            <ul>
+                <li class="list-titre">
+                    &lt;<b style="color: blue">a href=</b>""&gt;Clique-ici&lt;<b style="color: blue">/a</b>&gt;
+                </li>
+            </ul>
+            <br>
+            Dans cet attribut, ajoutez le lien vers le site vers lequel vous voulez diriger les utilisateurs 
+            <br>
+            <br>
+            <ul>
+                <li class="list-titre">
+                    &lt;<b style="color: blue">a href</b>="insere un lien ici"</b>&gt;Clique-ici&lt;<b style="color: blue">/a</b>&gt;
+                </li>
+            </ul>
+        </p>
+    </div>
+    <div class="html-base">
+        <p>
+            Attention à ne pas oublier la partie avec https:// ou http:// qui représente le protocole utilisé, au début de l'adresse. Une fois que vous avez créé un lien, testez votre page et cliquez dessus pour vous assurer qu'il fonctionne correctement.
+        </p>
+    </div>
 </html>
