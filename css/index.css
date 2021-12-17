@@ -123,6 +123,11 @@ body::-webkit-scrollbar {
     .titre {
         padding-top: 15px;
     }
+
+    .bouton {
+        text-decoration: none;
+        color: white;
+    }
 }
 
 /*-------------------------------------------------------------*/
