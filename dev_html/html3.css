@@ -25,7 +25,7 @@ body::-webkit-scrollbar {
     border: none;
     font-family: "PoppinsBold";
     font-size: 15px;
-    background-color: darkgray;
+    background-color: black;
     border-radius: 10px;
     transition: 0.5s;
     position: fixed;
@@ -33,7 +33,7 @@ body::-webkit-scrollbar {
 
 .retour  a{
     text-decoration: none;
-    color: black;
+    color: white;
     background-color: transparent;
 }
 
@@ -45,7 +45,7 @@ body::-webkit-scrollbar {
     border: none;
     font-family: "PoppinsBold";
     font-size: 15px;
-    background-color: darkgray;
+    background-color: black;
     border-radius: 10px;
     transition: 0.5s;
     position: fixed;
@@ -54,7 +54,7 @@ body::-webkit-scrollbar {
 
 .suivant  a{
     text-decoration: none;
-    color: black;
+    color: white;
     background-color: transparent;
 }
 
@@ -65,7 +65,8 @@ body::-webkit-scrollbar {
     font-size: 35px;
     margin-top: 4%;
     margin-left: 6%;
-    background-color: darkgray;
+    background-color: black;
+    color: white;
     width: 28%;
     border-radius: 50px;
     padding: 15px;
@@ -80,7 +81,8 @@ body::-webkit-scrollbar {
     width: 50%;
     padding: 30px;
     border-radius: 10px;
-    background-color: darkgray;
+    background-color: black;
+    color: white;
 }
 
 .html-titre {
@@ -91,7 +93,7 @@ body::-webkit-scrollbar {
     width: 20%;
     padding: 10px;
     border-radius: 10px;    
-    background-color: darkslategray;
+    background-color: #2B2B2B;
     display: flex;
     align-items: center;
     text-align: center;
@@ -99,7 +101,8 @@ body::-webkit-scrollbar {
 
 .list-titre {
     border: 1px black solid;
-    background-color: white;
+    background-color: black;
+    color: white;
     padding: 5px;
     width: 100%;
     border-radius: 4px;
@@ -114,7 +117,7 @@ body::-webkit-scrollbar {
     width: 55%;
     padding: 10px;
     border-radius: 10px;    
-    background-color: darkslategray;
+    background-color: #2B2B2B;
     display: flex;
     align-items: center;
     text-align: center;
@@ -128,14 +131,15 @@ body::-webkit-scrollbar {
     width: 28%;
     padding: 10px;
     border-radius: 10px;    
-    background-color: darkslategray;
+    background-color: #2B2B2B;
     align-items: center;
     text-align: left;
 }
 
 .list-titre-list {
     border: 1px black solid;
-    background-color: white;
+    background-color: black;
+    color: white;
     padding: 5px;
     width: 100%;
     border-radius: 4px;
@@ -145,7 +149,8 @@ body::-webkit-scrollbar {
 
 .list-titre-list-2 {
     border: 1px black solid;
-    background-color: white;
+    background-color: black;
+    color: white;
     padding: 5px;
     width: 100%;
     border-radius: 4px;
@@ -161,14 +166,15 @@ body::-webkit-scrollbar {
     width: 40%;
     padding: 10px;
     border-radius: 10px;    
-    background-color: darkslategray;
+    background-color: #2B2B2B;
     align-items: center;
     text-align: center;
 }
 
 .list-lien {
     border: 1px black solid;
-    background-color: white;
+    background-color: black;
+    color: white;
     padding: 5px;
     width: 100%;
     border-radius: 4px;

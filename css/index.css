@@ -104,16 +104,57 @@ body::-webkit-scrollbar {
 /*-------------------------------------------------------------*/
 
 #main {
-    text-align: center;
     width: 100%;
-    margin-top: 23%;
     font-size: 50px;
     font-family: "PoppinsBold";
-    color: darkgrey;
-    background-color: rgb(87, 0, 0);
-    
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 16%;
+    flex-wrap: wrap;
 }
 
+@media screen and (max-width: 900px) {
+    #main {
+        display: list-item;
+        
+    }
+    .titre {
+        padding-top: 15px;
+    }
+}
+
+/*-------------------------------------------------------------*/
+
 .titre {
-    height: 67px;
+    font-family: "PoppinsBold";
+    font-size: 60px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+
+.text-small {
+    font-family: "PoppinsRegular";
+    font-size: 15px;
+    background-color: black;
+    width: 100%;
+    margin-top: -35px;
+    padding: 10px;
+    border-radius: 5px;
+    border: darkgray 1px solid;
+    transition: 0.3s;
+}
+
+.text-small:hover {
+    color: black;
+    background-color: darkgray;
+    border: black 1px solid;
+    transform: scale(1.1);
+}
+
+.bouton {
+    text-decoration: none;
+    color: white;
 }
