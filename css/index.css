@@ -124,7 +124,7 @@ body::-webkit-scrollbar {
         padding-top: 15px;
     }
     .text-small {
-        width: 200px;
+        max-width: 150px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -150,7 +150,7 @@ body::-webkit-scrollbar {
     font-size: 15px;
     background-color: black;
     margin-top: -35px;
-    width: 500px;
+    width: 350px;
     padding: 10px;
     border-radius: 5px;
     border: darkgray 1px solid;
