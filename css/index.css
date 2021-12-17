@@ -118,16 +118,19 @@ body::-webkit-scrollbar {
 @media screen and (max-width: 900px) {
     #main {
         display: block;
-        
+        text-align: center;
     }
     .titre {
         padding-top: 15px;
+    }
+    .text-small {
+        width: 200px;
+    
     }
 
     .bouton {
         text-decoration: none;
         color: white;
-        width: 200px;
     }
 }
 
