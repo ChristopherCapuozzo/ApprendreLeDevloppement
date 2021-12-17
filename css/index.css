@@ -112,20 +112,21 @@ body::-webkit-scrollbar {
     justify-content: space-around;
     text-align: center;
     padding-top: 16%;
-    flex-wrap: wrap;
 }
 
 @media screen and (max-width: 900px) {
     #main {
         display: block;
-        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
     .titre {
         padding-top: 15px;
     }
     .text-small {
-        width: 200px!important;
-    
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .bouton {
@@ -149,7 +150,7 @@ body::-webkit-scrollbar {
     font-size: 15px;
     background-color: black;
     margin-top: -35px;
-    width: 500px!important;
+    width: 500px;
     padding: 10px;
     border-radius: 5px;
     border: darkgray 1px solid;
