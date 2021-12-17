@@ -43,7 +43,7 @@ body::-webkit-scrollbar {
     padding-top: 0.3%;
     width: 60px;
     height: 30px;
-    animation: boucle 10s infinite;
+    animation: boucle 6s infinite;
     
 }
 
@@ -55,7 +55,7 @@ body::-webkit-scrollbar {
     padding-top: 0.3%;
     width: 60px;
     height: 30px;
-    animation: boucle 10s infinite;
+    animation: boucle 6s infinite;
     animation-delay: 1s;
 }
 
@@ -67,7 +67,7 @@ body::-webkit-scrollbar {
     padding-top: 0.3%;
     width: 60px;
     height: 30px;
-    animation: boucle 10s infinite;
+    animation: boucle 6s infinite;
     animation-delay: 2s;
 }
 
@@ -79,19 +79,17 @@ body::-webkit-scrollbar {
     padding-top: 0.3%;
     width: 60px;
     height: 30px;
-    animation: boucle 10s infinite;
+    animation: boucle 6s infinite;
     animation-delay: 3s;
 }
 
 @keyframes boucle {
     
     30% {
-        background-color: gray;
-        color: black;
+        color: white;
     }
 
-    100% {
-        background-color: black;
+    80% {
         color: gray;
     }
 
@@ -99,7 +97,7 @@ body::-webkit-scrollbar {
 
 #menu-base a {
     text-decoration: none;
-    color: darkgray;
+    color: gray;
 }
 
 
