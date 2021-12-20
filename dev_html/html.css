@@ -65,7 +65,8 @@ body::-webkit-scrollbar {
     font-family: "PoppinsBold";
     font-size: 35px;
     margin-top: 5%;
-    margin-left: 6%;
+    margin-right: auto;
+    margin-left: auto;
     background-color: black;
     color: darkgray;
     width: 53%;
@@ -78,7 +79,8 @@ body::-webkit-scrollbar {
     font-family: "PoppinsRegular";
     font-size: 15px;
     margin-top: 2%;
-    margin-left: 10%;
+    margin-right: auto;
+    margin-left: auto;
     width: 75%;
     padding: 30px;
     border-radius: 10px;
@@ -90,7 +92,8 @@ body::-webkit-scrollbar {
     font-family: "PoppinsRegular";
     font-size: 15px;
     margin-top: 2%;
-    margin-left: 15%;
+    margin-right: auto;
+    margin-left: auto;
     width: 52%;
     padding: 20px;
     border-radius: 10px;    
@@ -124,7 +127,8 @@ body::-webkit-scrollbar {
     font-family: "PoppinsBold";
     font-size: 35px;
     margin-top: 4%;
-    margin-left: 6%;
+    margin-right: auto;
+    margin-left: auto;
     background-color: black;
     color: darkgray;
     width: 50%;
@@ -138,7 +142,8 @@ body::-webkit-scrollbar {
     font-family: "PoppinsRegular";
     font-size: 15px;
     margin-top: 2%;
-    margin-left: 15%;
+    margin-right: auto;
+    margin-left: auto;
     width: 60%;
     padding: 20px;
     border-radius: 10px;    
@@ -157,7 +162,8 @@ body::-webkit-scrollbar {
     font-family: "PoppinsBold";
     font-size: 35px;
     margin-top: 4%;
-    margin-left: 6%;
+    margin-right: auto;
+    margin-left: auto;
     background-color: black;
     color: darkgray;
     width: 54%;
@@ -170,7 +176,8 @@ body::-webkit-scrollbar {
     font-family: "PoppinsRegular";
     font-size: 15px;
     margin-top: 2%;
-    margin-left: 15%;
+    margin-right: auto;
+    margin-left: auto;
     width: 52%;
     padding: 20px;
     border-radius: 10px;    
@@ -193,7 +200,8 @@ body::-webkit-scrollbar {
     font-family: "PoppinsBold";
     font-size: 35px;
     margin-top: 4%;
-    margin-left: 6%;
+    margin-right: auto;
+    margin-left: auto;
     background-color: black;
     color: darkgray;
     width: 34%;
@@ -217,10 +225,27 @@ body::-webkit-scrollbar {
     font-family: "PoppinsRegular";
     font-size: 15px;
     margin-top: 2%;
-    margin-left: 10%;
+    margin-right: auto;
+    margin-left: auto;
     width: 35%;
     padding: 30px;
     border-radius: 10px;
     background-color: black;
     color: darkgray;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .retour {
+        left: 7%;
+        top: 5%;  
+    }
+    .suivant {
+        left: 84%;
+        top: 5%;
+    }
+    .html-base {
+        width: 50%;
+    }
 }
