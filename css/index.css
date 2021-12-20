@@ -156,11 +156,13 @@ footer {
     background-color: black;
     color: white;
     font-family: "PoppinsRegular";
-    position: absolute;
-    bottom: 0%;
+    position: relative;
     text-align: center;
+    margin-top: 450px;
+    margin-bottom: auto;
     align-content: center;
-    left: 41%;
+    margin-left: auto;
+    margin-right: auto;
     opacity: 0;
     transition: 0.5s;
     animation: footer-boucle 20s infinite;
@@ -171,7 +173,7 @@ footer {
 
 
 .text-footer {
-    margin: 2px;
+    padding: 2px;
 }
 
 @keyframes footer-boucle {
@@ -187,7 +189,7 @@ footer {
 
 /*-------------------------------------------------------------*/
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 900px) {
     #main {
         display: block;
         margin-left: auto;
@@ -207,6 +209,6 @@ footer {
         color: white;
     }
     footer {
-        left: 24%;
+        
     }
 }
