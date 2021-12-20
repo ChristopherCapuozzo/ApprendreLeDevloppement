@@ -115,7 +115,7 @@ body::-webkit-scrollbar {
     padding-top: 16%;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
     #main {
         display: block;
         margin-left: auto;
@@ -134,7 +134,9 @@ body::-webkit-scrollbar {
         text-decoration: none;
         color: white;
     }
-    
+    footer {
+        left: 25%;
+    }
 }
 
 /*-------------------------------------------------------------*/
@@ -188,11 +190,7 @@ footer {
     border-radius: 20px;
 }
 
-@media screen and (max-width: 1200px) {
-    footer {
-        left: 25%;
-    }
-}
+
 
 
 .text-footer {
