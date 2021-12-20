@@ -65,7 +65,8 @@ body::-webkit-scrollbar {
     font-family: "PoppinsBold";
     font-size: 35px;
     margin-top: 4%;
-    margin-left: 6%;
+    margin-right: auto;
+    margin-left: auto;
     background-color: black;
     width: 46%;
     border-radius: 50px;
@@ -78,7 +79,8 @@ body::-webkit-scrollbar {
     font-family: "PoppinsRegular";
     font-size: 15px;
     margin-top: 2%;
-    margin-left: 10%;
+    margin-right: auto;
+    margin-left: auto;
     width: 50%;
     padding: 30px;
     border-radius: 10px;
@@ -90,7 +92,8 @@ body::-webkit-scrollbar {
     font-family: "PoppinsRegular";
     font-size: 15px;
     margin-top: 2%;
-    margin-left: 15%;
+    margin-right: auto;
+    margin-left: auto;
     width: 30%;
     padding: 10px;
     border-radius: 10px;    
@@ -117,7 +120,8 @@ body::-webkit-scrollbar {
     font-family: "PoppinsRegular";
     font-size: 15px;
     margin-top: 2%;
-    margin-left: 10%;
+    margin-right: auto;
+    margin-left: auto;
     width: 52%;
     padding: 30px;
     border-radius: 10px;
@@ -131,7 +135,8 @@ body::-webkit-scrollbar {
     font-family: "PoppinsBold";
     font-size: 35px;
     margin-top: 4%;
-    margin-left: 6%;
+    margin-right: auto;
+    margin-left: auto;
     background-color: black;
     color: white;
     width: 46%;
@@ -144,7 +149,8 @@ body::-webkit-scrollbar {
     font-family: "PoppinsRegular";
     font-size: 15px;
     margin-top: 2%;
-    margin-left: 15%;
+    margin-right: auto;
+    margin-left: auto;
     width: 58%;
     padding: 30px;
     border-radius: 10px;
@@ -160,7 +166,8 @@ body::-webkit-scrollbar {
     font-family: "PoppinsRegular";
     font-size: 15px;
     margin-top: 2%;
-    margin-left: 10%;
+    margin-right: auto;
+    margin-left: auto;
     width: 66%;
     padding: 30px;
     border-radius: 10px;
@@ -172,7 +179,8 @@ body::-webkit-scrollbar {
     font-family: "PoppinsRegular";
     font-size: 15px;
     margin-top: 2%;
-    margin-left: 15%;
+    margin-right: auto;
+    margin-left: auto;
     width: 46%;
     padding: 30px;
     border-radius: 10px;
@@ -194,7 +202,8 @@ body::-webkit-scrollbar {
     font-family: "PoppinsBold";
     font-size: 35px;
     margin-top: 4%;
-    margin-left: 6%;
+    margin-right: auto;
+    margin-left: auto;
     background-color: black;
     color: white;
     width: 46%;
@@ -207,7 +216,8 @@ body::-webkit-scrollbar {
     font-family: "PoppinsRegular";
     font-size: 15px;
     margin-top: 2%;
-    margin-left: 15%;
+    margin-right: auto;
+    margin-left: auto;
     width: 45%;
     padding: 10px;
     border-radius: 10px;    
@@ -234,7 +244,8 @@ body::-webkit-scrollbar {
     font-family: "PoppinsRegular";
     font-size: 15px;
     margin-top: 2%;
-    margin-left: 15%;
+    margin-right: auto;
+    margin-left: auto;
     width: 40%;
     padding: 10px;
     border-radius: 10px;    
@@ -262,7 +273,8 @@ body::-webkit-scrollbar {
     font-family: "PoppinsRegular";
     font-size: 15px;
     margin-top: 2%;
-    margin-left: 10%;
+    margin-right: auto;
+    margin-left: auto;
     width: 60%;
     padding: 30px;
     border-radius: 10px;
@@ -276,7 +288,8 @@ body::-webkit-scrollbar {
     font-family: "PoppinsBold";
     font-size: 35px;
     margin-top: 4%;
-    margin-left: 6%;
+    margin-right: auto;
+    margin-left: auto;
     background-color: black;
     color: white;
     width: 46%;
@@ -289,7 +302,8 @@ body::-webkit-scrollbar {
     font-family: "PoppinsRegular";
     font-size: 15px;
     margin-top: 2%;
-    margin-left: 15%;
+    margin-right: auto;
+    margin-left: auto;
     width: 50%;
     padding: 10px;
     border-radius: 10px;    
@@ -317,7 +331,8 @@ body::-webkit-scrollbar {
     font-family: "PoppinsRegular";
     font-size: 15px;
     margin-top: 2%;
-    margin-left: 10%;
+    margin-right: auto;
+    margin-left: auto;
     width: 55%;
     padding: 30px;
     border-radius: 10px;
@@ -331,7 +346,8 @@ body::-webkit-scrollbar {
     font-family: "PoppinsBold";
     font-size: 35px;
     margin-top: 4%;
-    margin-left: 6%;
+    margin-right: auto;
+    margin-left: auto;
     background-color: black;
     color: white;
     width: 46%;
@@ -344,7 +360,8 @@ body::-webkit-scrollbar {
     font-family: "PoppinsRegular";
     font-size: 15px;
     margin-top: 2%;
-    margin-left: 15%;
+    margin-right: auto;
+    margin-left: auto;
     width: 38%;
     padding: 10px;
     border-radius: 10px;    
@@ -369,7 +386,8 @@ body::-webkit-scrollbar {
     font-family: "PoppinsBold";
     font-size: 35px;
     margin-top: 4%;
-    margin-left: 6%;
+    margin-right: auto;
+    margin-left: auto;
     background-color: black;
     color: white;
     width: 25%;
@@ -382,7 +400,8 @@ body::-webkit-scrollbar {
     font-family: "PoppinsRegular";
     font-size: 15px;
     margin-top: 2%;
-    margin-left: 15%;
+    margin-right: auto;
+    margin-left: auto;
     width: 30%;
     padding: 10px;
     border-radius: 10px;    
@@ -401,4 +420,51 @@ body::-webkit-scrollbar {
     width: 100%;
     border-radius: 4px;
     text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .retour {
+        left: 7%;
+        top: 5%;  
+    }
+    .suivant {
+        left: 84%;
+        top: 5%;
+    }
+    .html-base {
+        width: 50%;
+    }
+    .html-base-2 {
+        width: 50%;
+    }
+    .html-base-3 {
+        width: 50%;
+    }
+    .html-base-4 {
+        width: 50%;
+    }
+    .html-base-5 {
+        width: 50%;
+    }
+    .html-base-6 {
+        width: 50%;
+    }
+    .html-base-7 {
+        width: 50%;
+    }
+
+
+
+    .html-exemple {
+        width: 50%;
+    }
+    .html-exemple-2 {
+        width: 50%;
+    }
+    .html-exemple-3 {
+        width: 50%;
+    }
+    .html-exemple-4 {
+        width: 50%;
+    }
 }
