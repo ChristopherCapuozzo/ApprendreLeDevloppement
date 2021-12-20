@@ -9,6 +9,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;
+    overflow: hidden;
 }
 
 body::-webkit-scrollbar {
@@ -168,4 +169,36 @@ body::-webkit-scrollbar {
 .bouton {
     text-decoration: none;
     color: white;
+}
+
+footer {
+    width: 360px;
+    height: 20px;
+    background-color: black;
+    color: white;
+    font-family: "PoppinsRegular";
+    position: absolute;
+    bottom: 0%;
+    text-align: center;
+    align-content: center;
+    left: 41%;
+    opacity: 0;
+    transition: 0.5s;
+    animation: footer-boucle 20s infinite;
+    border-radius: 20px;
+}
+
+.text-footer {
+    margin: 2px;
+}
+
+@keyframes footer-boucle {
+    
+    10% {
+        opacity: 1;
+        transform: translate(0%, -50px); 
+    }
+    100% {
+
+    }
 }
