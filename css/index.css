@@ -33,6 +33,7 @@ body::-webkit-scrollbar {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 1%;
 }
 
 .menu-bouton-1 {
@@ -133,6 +134,7 @@ body::-webkit-scrollbar {
         text-decoration: none;
         color: white;
     }
+    
 }
 
 /*-------------------------------------------------------------*/
