@@ -33,7 +33,7 @@ body::-webkit-scrollbar {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 1%;
+    padding-top: 0.5%;
 }
 
 .menu-bouton-1 {
