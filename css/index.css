@@ -115,29 +115,6 @@ body::-webkit-scrollbar {
     padding-top: 16%;
 }
 
-@media screen and (max-width: 1200px) {
-    #main {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .titre {
-        padding-top: 30px;
-    }
-    .text-small {
-        max-width: 200px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .bouton {
-        text-decoration: none;
-        color: white;
-    }
-    footer {
-        left: 25%;
-    }
-}
 
 /*-------------------------------------------------------------*/
 
@@ -205,5 +182,31 @@ footer {
     }
     100% {
 
+    }
+}
+
+/*-------------------------------------------------------------*/
+
+@media screen and (max-width: 1200px) {
+    #main {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .titre {
+        padding-top: 30px;
+    }
+    .text-small {
+        max-width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bouton {
+        text-decoration: none;
+        color: white;
+    }
+    footer {
+        left: 24%;
     }
 }
