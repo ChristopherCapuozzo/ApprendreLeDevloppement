@@ -188,6 +188,19 @@ footer {
 
 /*-------------------------------------------------------------*/
 
+
+@media screen and (max-width: 2600px) {
+    footer {
+        top: 1000px;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    footer {
+        top: 2100px;
+    }
+}
+
 @media screen and (max-width: 900px) {
     #main {
         display: block;
@@ -209,14 +222,3 @@ footer {
     
 }
 
-@media screen and (max-width: 2600px) {
-    footer {
-        top: 1000px;
-    }
-}
-
-@media screen and (max-width: 1700px) {
-    footer {
-        top: 2100px;
-    }
-}
