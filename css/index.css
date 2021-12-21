@@ -210,10 +210,27 @@ footer {
     
 }
 
-@media screen and (max-height: 800px) {
+
+
+@media screen and (max-height: 1200px) {
     
     footer {
-        top: 410px;
+        top: 660px;
     }
     
+}
+
+@media screen and (max-height: 1000px) {
+    
+    footer {
+        top: 580px;
+    }
+    
+}
+
+@media screen and (max-height: 850px) {
+    
+    footer {
+        top: 420px;
+    }
 }
