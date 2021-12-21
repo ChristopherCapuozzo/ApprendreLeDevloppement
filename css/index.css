@@ -188,19 +188,6 @@ footer {
 
 /*-------------------------------------------------------------*/
 
-
-@media screen and (max-width: 2600px) {
-    footer {
-        top: 1000px;
-    }
-}
-
-@media screen and (max-width: 1700px) {
-    footer {
-        top: 2100px;
-    }
-}
-
 @media screen and (max-width: 900px) {
     #main {
         display: block;
@@ -219,6 +206,13 @@ footer {
         text-decoration: none;
         color: white;
     }
-    
+    footer {
+        top: 415px;
+    }
 }
 
+@media screen and (max-width: 600px) {
+    footer {
+        top: 460px;
+    }
+}
