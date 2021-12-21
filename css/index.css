@@ -202,35 +202,17 @@ footer {
         margin-left: auto;
         margin-right: auto;
     }
-
     .bouton {
         text-decoration: none;
         color: white;
     }
-    
-}
-
-
-
-@media screen and (max-height: 1200px) {
-    
     footer {
-        top: 660px;
+        top: 415px;
     }
-    
 }
 
-@media screen and (max-height: 1000px) {
-    
+@media screen and (max-width: 600px) {
     footer {
-        top: 580px;
-    }
-    
-}
-
-@media screen and (max-height: 850px) {
-    
-    footer {
-        top: 420px;
+        top: 460px;
     }
 }
