@@ -177,7 +177,7 @@ footer {
 
 @keyframes footer-boucle {
     
-    10% {
+    20% {
         opacity: 1;
         transform: translate(0%, -50px); 
     }
