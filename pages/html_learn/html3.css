@@ -5,7 +5,7 @@
 }
 
 body {
-    background: url(../img/html.jpg);
+    background: url(../../img/html.jpg);
     background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;
@@ -14,7 +14,6 @@ body {
 body::-webkit-scrollbar {
     display: none;
 }
-
 
 /*-------------------------------------------------------------*/
 
@@ -34,7 +33,7 @@ body::-webkit-scrollbar {
 
 .retour  a{
     text-decoration: none;
-    color: darkgray;
+    color: white;
     background-color: transparent;
 }
 
@@ -55,21 +54,21 @@ body::-webkit-scrollbar {
 
 .suivant  a{
     text-decoration: none;
-    color: darkgray;
+    color: white;
     background-color: transparent;
 }
 
 /*-------------------------------------------------------------*/
 
-.block-1 {
+.small-block {
     font-family: "PoppinsBold";
     font-size: 35px;
-    margin-top: 5%;
+    margin-top: 4%;
     margin-right: auto;
     margin-left: auto;
     background-color: black;
-    color: darkgray;
-    width: 53%;
+    color: white;
+    width: 28%;
     border-radius: 50px;
     padding: 15px;
     text-align: center;
@@ -81,11 +80,87 @@ body::-webkit-scrollbar {
     margin-top: 2%;
     margin-right: auto;
     margin-left: auto;
-    width: 75%;
+    width: 50%;
     padding: 30px;
     border-radius: 10px;
     background-color: black;
-    color: darkgray;
+    color: white;
+}
+
+.html-titre {
+    font-family: "PoppinsRegular";
+    font-size: 15px;
+    margin-top: 2%;
+    margin-right: auto;
+    margin-left: auto;
+    width: 20%;
+    padding: 10px;
+    border-radius: 10px;    
+    background-color: #2B2B2B;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.list-titre {
+    border: 1px black solid;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    width: 100%;
+    border-radius: 4px;
+    list-style-type: none;
+}
+
+.html-titre-long {
+    font-family: "PoppinsRegular";
+    font-size: 15px;
+    margin-top: 2%;
+    margin-right: auto;
+    margin-left: auto;
+    width: 55%;
+    padding: 10px;
+    border-radius: 10px;    
+    background-color: #2B2B2B;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.html-titre-list {
+    font-family: "PoppinsRegular";
+    font-size: 15px;
+    margin-top: 2%;
+    margin-right: auto;
+    margin-left: auto;
+    width: 28%;
+    padding: 10px;
+    border-radius: 10px;    
+    background-color: #2B2B2B;
+    align-items: center;
+    text-align: left;
+}
+
+.list-titre-list {
+    border: 1px black solid;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    width: 100%;
+    border-radius: 4px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.list-titre-list-2 {
+    border: 1px black solid;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    width: 100%;
+    border-radius: 4px;
+    list-style-type: none;
+    text-align: left;
 }
 
 .html-exemple {
@@ -94,147 +169,24 @@ body::-webkit-scrollbar {
     margin-top: 2%;
     margin-right: auto;
     margin-left: auto;
-    width: 52%;
-    padding: 20px;
+    width: 40%;
+    padding: 10px;
     border-radius: 10px;    
-    background-color: rgb(43, 43, 43);
-    color: darkgray;
-    display: flex;
+    background-color: #2B2B2B;
     align-items: center;
     text-align: center;
 }
 
-.ex {
-    width: 35%;
-}
-
-.ex-1 {
+.list-lien {
     border: 1px black solid;
-    color: darkgray;
     background-color: black;
+    color: white;
     padding: 5px;
-    width: 95%;
+    width: 100%;
     border-radius: 4px;
-}
-
-.html-list {
-    list-style-type: decimal;
-}
-
-/*-------------------------------------------------------------*/
-
-.block-2 {
-    font-family: "PoppinsBold";
-    font-size: 35px;
-    margin-top: 4%;
-    margin-right: auto;
-    margin-left: auto;
-    background-color: black;
-    color: darkgray;
-    width: 50%;
-    border-radius: 50px;
-    padding: 15px;
+    list-style-type: none;
     text-align: center;
 }
-
-
-.html-exemple-2 {
-    font-family: "PoppinsRegular";
-    font-size: 15px;
-    margin-top: 2%;
-    margin-right: auto;
-    margin-left: auto;
-    width: 60%;
-    padding: 20px;
-    border-radius: 10px;    
-    background-color: rgb(43, 43, 43);
-    color: darkgray;
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
-
-/*-------------------------------------------------------------*/
-
-
-
-.block-3 {
-    font-family: "PoppinsBold";
-    font-size: 35px;
-    margin-top: 4%;
-    margin-right: auto;
-    margin-left: auto;
-    background-color: black;
-    color: darkgray;
-    width: 54%;
-    border-radius: 50px;
-    padding: 15px;
-    text-align: center;
-}
-
-.html-exemple-3 {
-    font-family: "PoppinsRegular";
-    font-size: 15px;
-    margin-top: 2%;
-    margin-right: auto;
-    margin-left: auto;
-    width: 52%;
-    padding: 20px;
-    border-radius: 10px;    
-    background-color: rgb(43, 43, 43);
-    color: darkgray;
-    display: flex;
-    align-items: center;
-
-}
-
-.ex-3 {
-    border: 1px darkgray solid;
-    background-color: black;
-    padding: 10px;
-    width: 95%;
-    border-radius: 4px;
-}
-
-.block-3-2 {
-    font-family: "PoppinsBold";
-    font-size: 35px;
-    margin-top: 4%;
-    margin-right: auto;
-    margin-left: auto;
-    background-color: black;
-    color: darkgray;
-    width: 34%;
-    border-radius: 50px;
-    padding: 15px;
-    text-align: center;
-}
-
-.ex-4 {
-    border: 1px black solid;
-    background-color: black;
-    color: darkgray;
-    padding: 10px;
-    width: 60%;
-    border-radius: 4px;
-    text-align: left;
-    line-height: 20px;
-}
-
-.html-base-last {
-    font-family: "PoppinsRegular";
-    font-size: 15px;
-    margin-top: 2%;
-    margin-right: auto;
-    margin-left: auto;
-    width: 35%;
-    padding: 30px;
-    border-radius: 10px;
-    background-color: black;
-    color: darkgray;
-}
-
-
 
 @media screen and (max-width: 1200px) {
     .retour {
@@ -246,6 +198,21 @@ body::-webkit-scrollbar {
         top: 5%;
     }
     .html-base {
+        width: 50%;
+    }
+    .html-titre {
+        width: 50%;
+    }
+    .html-titre-long {
+        width: 50%;
+    }
+    .small-block {
+        width: 50%;
+    }
+    .html-titre-list {
+        width: 50%;
+    }
+    .html-exemple {
         width: 50%;
     }
 }
